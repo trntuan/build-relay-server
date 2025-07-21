@@ -1,0 +1,6 @@
+my-firebase.json
+my_secrets.py
+.env
+__pycache__/
+*.pyc
+*.log
