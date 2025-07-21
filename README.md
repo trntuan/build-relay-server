@@ -23,7 +23,7 @@ oripark-backend/
 
 ```bash
 git clone https://github.com/trntuan/build-relay-server
-cd oripark-backend
+cd build-relay-server
 ````
 
 ### 2. Clone the `relay-server` source
