@@ -48,7 +48,7 @@ You must manually place the following files in the project root:
 To build and start the `relay-server` container:
 
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
 
 The server should now be running and accessible at: [http://localhost:8899](http://localhost:8899)
@@ -85,7 +85,7 @@ __pycache__/
 
 ## 🧪 Troubleshooting
 
-* Make sure `my-firebase.json` and `my_secrets.py` exist before running `docker-compose up`.
+* Make sure `my-firebase.json` and `my_secrets.py` exist before running `docker compose up`.
 * If ports conflict with other services, change the `ports:` value in `docker-compose.yml`.
 
 ---
